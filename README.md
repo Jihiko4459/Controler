@@ -101,3 +101,7 @@
                 bind.typeofbenefit.text=dataArray[4]
             }
 
+Например:
+![Снимок экрана 2023-09-19 093939](https://github.com/Jihiko4459/Controler/assets/123885194/8523615e-9c30-44c4-b1f8-21def608dedd)
+
+![Screenshot_20230920-000038_Controler](https://github.com/Jihiko4459/Controler/assets/123885194/bf900324-f7cb-482e-9a3f-a2b3c870d38d)
