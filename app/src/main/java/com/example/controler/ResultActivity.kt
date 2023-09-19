@@ -29,6 +29,6 @@ class ResultActivity : AppCompatActivity() {
     }
 
     fun complaint(view: View) {
-        Toast.makeText(this@ResultActivity, "Сообщение о жалобе отправлено в поддержку", Toast.LENGTH_SHORT)
+        Toast.makeText(this@ResultActivity, "Сообщение о жалобе отправлено в поддержку", Toast.LENGTH_SHORT).show()
     }
 }

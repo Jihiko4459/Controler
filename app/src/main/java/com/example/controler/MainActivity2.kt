@@ -48,8 +48,7 @@ class MainActivity2 : AppCompatActivity() {
 
             setTitle("Закрытие смены")
             setPositiveButton("Да"){ dialog, which->
-                finish()
-                System.out.close()
+                finishAffinity()
             }
             setNegativeButton("Нет"){dialog, which->
                 Log.d("Main", "Negative button clicked")

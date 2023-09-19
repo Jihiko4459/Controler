@@ -41,7 +41,7 @@
             android:textColor="@color/black"
             android:textAlignment="center"
             android:fontFamily="@font/librefranklin_extrabold"
-            android:textSize="16sp"
+            android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -56,7 +56,7 @@
             android:textAlignment="center"
             android:text="Чтобы начать смену, приложите вашу карту к задней части телефона"
             android:fontFamily="@font/librefranklin_regular"
-            android:textSize="12sp"
+            android:textSize="16sp"
             android:textColor="@color/gray1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
