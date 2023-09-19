@@ -3,7 +3,10 @@ package com.example.controler
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
+import android.widget.EditText
+import androidx.appcompat.app.AlertDialog
 import com.example.controler.databinding.ActivityMain2Binding
 
 class MainActivity2 : AppCompatActivity() {
@@ -34,4 +37,26 @@ class MainActivity2 : AppCompatActivity() {
         val intent= Intent(this@MainActivity2, QrActivity::class.java)
         startActivity(intent)
     }
+
+    fun close(view: View) {
+        val builder=AlertDialog.Builder(this)
+        val inflater=layoutInflater
+        val dialogLayout=inflater.inflate(R.layout.close_layuot, null)
+        val editText=dialogLayout.findViewById<EditText>(R.id.et)
+
+        with(builder){
+
+            setTitle("Закрытие смены")
+            setPositiveButton("Да"){ dialog, which->
+                finish()
+                System.out.close()
+            }
+            setNegativeButton("Нет"){dialog, which->
+                Log.d("Main", "Negative button clicked")
+            }
+            setView(dialogLayout)
+            show()
+        }
+    }
+
 }

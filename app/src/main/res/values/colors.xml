@@ -13,11 +13,13 @@
     <color name="gray4">#B0B0B0</color>
     <color name="gray5">#F5F5F5</color>
     <color name="gray6">#757575</color>
+    <color name="gray7">#7F7D7D</color>
     <color name="blue1">#2E3192</color>
     <color name="blue2">#3F6ABC</color>
     <color name="blue3">#81CAFF</color>
     <color name="blue4">#47A0E0</color>
     <color name="blue5">#140E3B</color>
+    <color name="blue6">#3077E1</color>
     <color name="red">#FF0000</color>
 
 </resources>

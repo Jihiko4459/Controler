@@ -85,6 +85,7 @@
                 android:layout_marginBottom="32dp"
                 android:fontFamily="@font/librefranklin_medium"
                 android:text="Закончить смену"
+                android:onClick="close"
                 android:textColor="@color/red"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
